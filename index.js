@@ -32,6 +32,7 @@ var delims = new Delims();
 
 function Delimiters(options) {
   this.options = options || {};
+  this.delims = this.options.delims || {};
   this.init();
 }
 
@@ -45,7 +46,6 @@ function Delimiters(options) {
 
 Delimiters.prototype.init = function(options) {
   var opts = options || this.options;
-  this.delims = opts.delims || {};
 
   this.option('flags', opts.flags || 'g');
   this.option('layoutDelims', opts.layoutDelims || ['{{', '}}']);
