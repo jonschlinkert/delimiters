@@ -1,7 +1,7 @@
 {
   "name": "delimiters",
   "description": "Set and get custom template delimiters.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/delimiters",
   "author": {
     "name": "Jon Schlinkert",
@@ -34,7 +34,7 @@
     "should": "^4.0.4"
   },
   "dependencies": {
-    "delimiter-regex": "^1.1.0",
+    "delimiter-regex": "^1.2.0",
     "extend-shallow": "^0.2.0"
   }
 }
